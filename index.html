@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="index.css">
+   <title>Movie App</title>
+</head>
+
+<body>
+   <header>
+      <div class="menu_nav menu_hidden">
+         <nav class="menu_nav_hidden">
+             <button class="cerrar">
+                 <img src="menu_hamburguesa.png">
+             </button>
+             <div id="tags">
+               <div class="tag">Action</div>
+               <div class="tag">Adventure</div>
+               <div class="tag">Drama</div>
+               <div class="tag">Comedy</div>
+            </div>
+         </nav>
+     </div>
+     <div class="simbolo_hamburguesa">
+         <button class="abrir">
+             <img src="menu_hamburguesa.png">
+         </button>
+     </div>
+     
+      <form id="form">
+         <input type="text" id="search" placeholder="search" class="search">
+      </form>
+   </header>
+
+   <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content" id="Overlay-content"></div>
+      
+      <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a>
+      <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow">&#8658;</a>
+    </div>
+
+   <main id="main"></main>
+   <div class="pagination">
+      <div class="page" id="prev">Previous page</div>
+      <div class="current" id="current">1</div>
+      <div class="page" id="next">Next page</div>
+   </div>
+   <script src="index.js"></script>
+</body>
+
+</html>
