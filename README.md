@@ -14,4 +14,6 @@ the page has a search engine that filters the movies by names or movie titles, a
 
 It also has a play movie button to display the movies when clicked on.
 
+the page has pagenation which allows you to move from one page to another ans backwards.
+
 The github link and the design in figma are available. Basic functionality tests of the page have been implemented.
