@@ -84,6 +84,17 @@ header {
 .search::placeholder {
     color: rgb(8, 67, 76);
 }
+.carousel{
+    display: flex;
+    margin: 20px;
+    background: url(atm_neon_dribbble.webp.png.jpg);
+    min-height: 400px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-position: center;
+    
+}
 
 main {
     display: flex;
@@ -271,6 +282,19 @@ main {
       top: 15px;
       right: 35px;
     }
+
+    .caruser{
+        display: flex;
+        margin: 20px;
+        background: 100%, url(atm_neon_dribbble.webp.png.jpg);
+        background-size: cover;
+        min-height: 40.62em;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        align-items: end;
+       
+         
+       }
   }
 
   .embed.hide{
